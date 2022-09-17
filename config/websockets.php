@@ -118,6 +118,8 @@ return [
          */
         'local_cert' => env('LARAVEL_WEBSOCKETS_SSL_LOCAL_CERT', null),
 
+        'verify_peer' => false,
+
         /*
          * Path to local private key file on filesystem in case of separate files for
          * certificate (local_cert) and private key.
